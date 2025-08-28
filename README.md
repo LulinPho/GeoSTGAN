@@ -52,4 +52,3 @@ pip install -r requirements.txt
 
 - 模型与算法核心实现保持不变；仅重构工具与导入路径。
 - 代码中硬编码路径已逐步替换为 `config.PATHS`，如有遗漏，请在本地再行调整。
-

@@ -19,7 +19,7 @@ from collections import OrderedDict
 
 from models.gan import Generator
 from distributed_constraint import distributed_constraint_train, infer_step
-from data.dataset import PatchDataset
+from preprocess.data.dataset import PatchDataset
 from utils import get_data, create_positions_sequence, normalize_tensor_with_params
 from ewc import create_ewc
 
